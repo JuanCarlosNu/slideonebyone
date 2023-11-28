@@ -1,0 +1,65 @@
+.proyects_overlay{
+
+}
+.carousel-inner{
+    border-radius: 15px;
+}
+
+.section_body{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.carousel-item{
+    border-radius: 20px;
+}
+
+.carousel-control-prev-icon{
+    background-color: red;
+    z-index: 3;
+    height: 2.5rem;
+    position:absolute;
+    left: 55px;
+}
+.carousel-control-next-icon{
+    
+        background-color: red;
+        z-index: 3;
+        height: 2.5rem;
+        position:absolute;
+        right: 55px;
+   
+}
+.py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+    }
+.carousel-inner {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+}
+
+.card{
+    height: 550px;
+}
+.card img{
+    height: 300px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+   
+
+
+
+
+@media screen and (max-width: 475px){
+    .py-4 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+        
+    }
